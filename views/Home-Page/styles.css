@@ -1,0 +1,127 @@
+:root{
+    --light-black: #443E52;
+    --dark-black: #2E2B38;
+    --light-green: #3DD705;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body{
+    background: var(--dark-black);
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    color: white;
+    width: 100%;
+    height: 100px;
+    background: var(--light-black);
+    padding: 0 300px 0 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: white;
+}
+
+header .logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .logo-container img{
+    width: 32px;
+    height: 32px;
+}
+
+header .logo-container #logo-text{
+    font-size: 25px;
+    font-weight: 100;
+    margin-left: 16px;
+}
+
+header #navbar{
+    width: 420px;
+
+    margin-right: 150px;
+    margin-left: 150px; 
+}
+
+header #navbar ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header #navbar ul li{
+    list-style: none;
+    font-size: 18px;
+}
+
+header #shopping-cart{
+    display: flex;
+    align-items: center;
+}
+
+header #shopping-cart img{
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+}
+
+header #shopping-cart h2{
+    font-size: 18px;
+    font-weight: 100;
+    color: var(--light-green);
+}
+
+.container{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 300px 0 300px;
+}
+
+.container #text-section h2{
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.container #text-section h2:first-child{
+    width: 518px;
+    height: 247px;
+
+    /* margin-top: 110px; */
+}
+
+.container #text-section h2:last-child{
+    width: 362px;
+    height: 245px;
+}
+
+.container #image-section img{
+    width: 600px;
+    height: 600px;
+}
+
+
+
